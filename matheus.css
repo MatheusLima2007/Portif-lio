@@ -12,7 +12,7 @@
 main {
     max-width: 800px;
     width: auto;
-    margin: 5% auto;
+    margin: 5% auto auto auto;
     padding: 20px 60px;
     background: white;
     border-radius: 10px;
@@ -21,7 +21,6 @@ main {
 
 h1{
     width: auto;
-    display: flex;
     text-align: center;
     font-size: 40px;
     margin-bottom: -15px;
@@ -47,7 +46,7 @@ li,p{
     font-size: 20px;
 }
 
-p{
+.section-2 p{
     margin-bottom: 5%;
 }
 
@@ -63,8 +62,9 @@ p{
 }
 
 .img-1{
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
     /*border: 2px black solid;*/
 }
 
@@ -80,6 +80,13 @@ section{
     margin-bottom: 5%;
 }
 
+.section-3 p{
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    font-size: 15px;
+}
+
 .section-4{
     padding: 20px 0px 0px 0px;
 }
@@ -93,17 +100,16 @@ section{
 
 .equipe {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px; /*Espaçamento entre os membros*/
+    justify-content:space-between;
+     /*Espaçamento entre os membros*/
 }
 
 .dev{
     background: #fff;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 200px; /* Ajuste a largura conforme necessário */
-    height: 200px;
+    width: 330px; /* Ajuste a largura conforme necessário */
+    height: 150px;
     transition: transform 0.3s;
 }
 
@@ -131,8 +137,23 @@ section{
 }
 
 .info{
+    margin-top: 10px;
     text-align: center;
 }
+
+#p-1{
+    width: 80%;
+    padding: 6px;
+    margin-left: 37px;
+}
+
+#p-2{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 300px;
+    padding: 3px;
+}
+
 
 /*---------------------*/
 
@@ -221,4 +242,25 @@ section{
 .icon-3{
     width: 80px;
     height: 80px;
+}
+
+.trocar{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0px 5% 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.781);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.trocar a{
+    text-decoration: none;
+    color: black;
+}
+
+.trocar p{
+    font-weight: 300;
+    font-size: 1.5vw;
 }

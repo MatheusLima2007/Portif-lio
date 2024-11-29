@@ -12,7 +12,7 @@
 main {
     max-width: 800px;
     width: auto;
-    margin: 5% auto;
+    margin: 5% auto auto auto;
     padding: 20px 60px;
     background: white;
     border-radius: 10px;
@@ -241,4 +241,25 @@ section{
 .icon-3{
     width: 80px;
     height: 80px;
+}
+
+.trocar{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0px 5% 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.781);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.trocar a{
+    text-decoration: none;
+    color: black;
+}
+
+.trocar p{
+    font-weight: 300;
+    font-size: 1.5vw;
 }
